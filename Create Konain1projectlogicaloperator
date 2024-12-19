@@ -1,0 +1,41 @@
+#arithmetic operator 
+# Taking two numbers as input
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Addition
+addition = num1 + num2
+print(f"The sum of {num1} and {num2} is: {addition}")
+
+# Subtraction
+subtraction = num1 - num2
+print(f"The difference between {num1} and {num2} is: {subtraction}")
+
+# Multiplication
+multiplication = num1 * num2
+print(f"The product of {num1} and {num2} is: {multiplication}")
+
+# Division
+if num2 != 0:
+    division = num1 / num2
+    print(f"The division of {num1} by {num2} is: {division}")
+else:
+    print("Cannot divide by zero.")
+
+# Modulus
+if num2 != 0:
+    modulus = num1 % num2
+    print(f"The remainder of {num1} divided by {num2} is: {modulus}")
+else:
+    print("Cannot calculate modulus with zero.")
+
+# Exponentiation
+exponentiation = num1 ** num2
+print(f"{num1} raised to the power of {num2} is: {exponentiation}")
+
+# Floor Division
+if num2 != 0:
+    floor_division = num1 // num2
+    print(f"The floor division of {num1} by {num2} is: {floor_division}")
+else:
+    print("Cannot perform floor division by zero.")
